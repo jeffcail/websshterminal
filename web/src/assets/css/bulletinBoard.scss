@@ -1,0 +1,108 @@
+.content-board{
+    width: 100%;
+}
+.content-lease-balance{
+    width: 100%;
+    height: 92px;
+    background-color: #ffffff;
+    .lease-balance{
+        padding: 10px 15px;
+        line-height: 24px;
+        border-radius: 2px;
+        background-color: #fff;
+    }
+
+    .lease-balance-title {
+        margin: 10px 0 20px;
+        padding: 0;
+        border-width: 1px 0 0;
+        border-style: solid ;
+        border-color: #eee;
+
+        legend{
+            margin-left: 20px;
+            padding: 0 10px;
+            font-size: 20px;
+            font-weight: 300;
+            color: rgba(0,0,0,.85);
+        }
+    }
+    .content-progress{
+        width: 100%;
+        height: 16px;
+
+        ::v-deep .el-progress-bar__inner{
+            text-align: center;
+        }
+        ::v-deep .el-progress-bar__innerText{
+            font: 14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+        }
+    }
+}
+.content-static{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    .static{
+        width: 16%;
+    }
+    .staticPay{
+        width: 25%;
+    }
+    .compensateCount{
+        width: 8%;
+    }
+    .static-bg{
+        border-radius: 2px;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    }
+    .static-title{
+        position: relative;
+        height: 42px;
+        line-height: 42px;
+        padding: 0 15px;
+        border-bottom: 1px solid #f6f6f6;
+        color: #333;
+        border-radius: 2px 2px 0 0;
+        font-size: 14px;
+
+        display: flex;
+        justify-content: space-between;
+
+        p:nth-child(1){
+            position: absolute;
+            right: 15px;
+        }
+    }
+    .static-num{
+        padding: 15px;
+        display: flex;
+        
+        p:nth-child(1){
+            font-size: 36px;
+            color: #666;
+            line-height: 36px;
+            padding: 5px 0 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-all;
+            white-space: nowrap;
+        }
+        p:nth-child(2){
+            font-size: 14px!important;
+            padding: 20px 0 0 10px;
+        }
+    }
+
+}
+.content-passageway{
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+}
+.passageway-tabale{
+    width: 100%;
+}
